@@ -27,19 +27,6 @@ This project aims to speed up hematology workflows and reduce human error in man
 
 ---
 
-Automated-Blood-Cell-Detection/
-│
-├── data/ # Dataset (train/test images)
-├── notebooks/ # Colab notebooks for training/evaluation
-├── models/ # Saved model weights (best.pt)
-├── results/ # Output images with detections
-├── requirements.txt # Python dependencies
-├── detect.py # Detection/inference script
-├── train.py # Model training script
-└── README.md # You're here :)
-
----
-
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the repository

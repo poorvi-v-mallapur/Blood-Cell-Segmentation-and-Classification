@@ -42,25 +42,25 @@ Automated-Blood-Cell-Detection/
 
 ## ⚙️ Setup & Installation
 
-# 1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/<your-username>/Automated-Blood-Cell-Detection.git
 cd Automated-Blood-Cell-Detection
 ```
 
-# 2. Create a virtual environment (optional but recommended)
+### 2. Create a virtual environment (optional but recommended)
 ```
 python -m venv venv
 source venv/bin/activate   # (Linux/Mac)
 venv\Scripts\activate      # (Windows)
 ```
 
-# 3. Install dependencies
+### 3. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-# 🧬 Training the Model
+### 🧬 Training the Model
 
 To train the YOLOv11n model on the BCCD dataset:
 ```
@@ -68,7 +68,7 @@ yolo train model=yolov11n.pt data=data.yaml epochs=50 imgsz=640
 ```
 💡 Tip: Adjust epochs and batch size depending on GPU capacity.
 
-# 🔍 Running Detection
+### 🔍 Running Detection
 
 To run inference on test images:
 ```
